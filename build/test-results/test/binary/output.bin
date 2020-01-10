@@ -1,0 +1,2 @@
+IJobStorage{[Job{jobNumber=1, priority=3}, Job{jobNumber=2, priority=1}]}
++JobStorage{[Job{jobNumber=1, priority=3}]}

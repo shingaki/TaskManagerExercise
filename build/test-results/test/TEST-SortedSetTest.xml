@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SortedSetTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-10T20:21:32" hostname="Tamamis-MacBook-Pro.local" time="0.07">
+  <properties/>
+  <testcase name="check ordering of Job works" classname="SortedSetTest" time="0.07"/>
+  <system-out><![CDATA[JobStorage{[Job{jobNumber=1, priority=3}, Job{jobNumber=2, priority=1}]}
+JobStorage{[Job{jobNumber=1, priority=3}]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
