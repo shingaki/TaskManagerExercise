@@ -54,20 +54,18 @@ public class Job implements Comparable {
    @Override
    public int compareTo(Object o) {
       Job jobToCompare = (Job)o;
-      // in front of the queue go
-      // smaller priority
-      // smaller addedDate number
       if(this.priority < jobToCompare.priority)
          return 1;
-      else if(this.priority == jobToCompare.priority && this.addedDate < jobToCompare.addedDate)
-         return 1;
-      else if(this.priority == jobToCompare.priority && this.addedDate > jobToCompare.addedDate)
+      if(this.priority > jobToCompare.priority)
          return -1;
-      else if(this.priority < jobToCompare.priority && this.addedDate > jobToCompare.addedDate)
-         return -1;
-      else if(this.priority < jobToCompare.priority && this.addedDate > jobToCompare.addedDate)
-         return -1;
-      return 0;
+      else { // In here  this.priority == jobToCompare.priority
+         if(this.addedDate < jobToCompare.addedDate)
+            return 1;
+         else if(this.addedDate > jobToCompare.addedDate)
+            return -1;
+         else
+            return 0;
+      }
    }
 }
 

@@ -13,10 +13,12 @@ public class JobStorage {
    }
 
    private boolean canAddJob(Job job) {
-      if(storage.size() <= maxStorageSize -1 && !storage.contains(job))
-         return true;
-      else
-         return false;
+//      if(storage.size() <= (maxStorageSize - 1) && !storage.contains(job)) {
+         if(storage.size() <= (maxStorageSize - 1)) {
+            return true;
+      }
+      else {
+         return false; }
    }
 
    public boolean addJob(Job job) {
