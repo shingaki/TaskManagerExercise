@@ -48,10 +48,13 @@ public class TaskManager {
       private TaskManager taskManager;
       private RecurringJob recurringJob;
 
+
       public JobTimer(Timer timer, TaskManager taskManager, RecurringJob recurringJob) {
          this.timer = timer;
          this.taskManager = taskManager;
          this.recurringJob = recurringJob;
+
+
       }
 
       public void run() {

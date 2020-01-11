@@ -1,5 +1,7 @@
 package model;
 
+// recurring job is a sub-class of Job and the only difference is that
+// recurring job includes an interval value
 public class RecurringJob extends Job {
    private int interval;
 

@@ -35,17 +35,18 @@ class TaskManagerTest extends Specification {
 
     def "verify timer (internval) is working as expected"() {
         setup:
-        int intervalValidated = 0
-        RecurringJob recurringJob = new RecurringJob(10004, 2, 20000)
-        Timer timer = new Timer()
+        long interval = 5000
+        int start = System.currentTimeMillis()
+        RecurringJob recurringJob = new RecurringJob(10004, 2, interval)
         TaskManager taskManager = new TaskManager(2)
-        timer.schedule(new TaskManager.JobTimer(timer, taskManager, 10000))
 
         when:
-        taskManager.insertRecurringTask(recurringJob.getJobNumber(), recurringJob.getPriority(), recurringJob.getInterval())
+        taskManager.createTimer(recurringJob)
+        int stop = System.currentTimeMillis()
+
 
         then:
-        interValidated = 20000;
+        interval == stop - start
 
     }
 }

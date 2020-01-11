@@ -3,7 +3,7 @@ package model;
 
 public class Job implements Comparable {
    private int jobNumber;
-   private int priority; // lower number means higher priority
+   private int priority; // lower number means higher priority (1 = High, 2 = Normal, 3 = Low)
    private long addedDate;
 
    public Job(int jobNumber, int priority) {
@@ -51,6 +51,9 @@ public class Job implements Comparable {
       return jobNumber;
    }
 
+   // compares the new job's priority with the priority in the JobStorage
+   // compares if it is less than, or greater than or equal to
+   // if the jobs timestamp are equal then the earliest time stamp will take precedent
    @Override
    public int compareTo(Object o) {
       Job jobToCompare = (Job)o;

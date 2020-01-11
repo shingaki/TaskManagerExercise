@@ -22,21 +22,11 @@
       <change afterPath="$PROJECT_DIR$/../tamami-googlebooks/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tamami-googlebooks/.idea/tamami-googlebooks.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tamami-googlebooks/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/groovy/test/SortedSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/test/SortedSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crunchify/tutorials/TimerExample$CrunchifyReminder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/crunchify/tutorials/TimerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/JobStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/JobStorage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/TaskManager$JobTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/TaskManager$JobTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/TaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/TaskManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/test/JobStorageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/test/SortedSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/test/TaskManagerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SortedSetTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
@@ -44,14 +34,14 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SortedSetTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TaskManagerExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskManagerExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Job.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/JobStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/JobStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/SortedSetTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/SortedSetTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/JobStorageTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/JobStorageTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/TaskManagerTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/TaskManagerTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/TaskManagerTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/TaskManagerTest.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -111,70 +101,24 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/JobStorageTest.groovy">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TaskManagerExercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9675">
-              <caret line="703" selection-start-line="703" selection-end-line="703" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Job.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-              <folding>
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/TaskManagerTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/SortedSetTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="336">
+                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -182,20 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/TaskManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/TimerExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="60">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,12 +138,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/JobStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="480">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="31" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
                 <element signature="e#371#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Job.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,6 +171,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TasM</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -239,24 +189,23 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/Multi3.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/TimerExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TaskManagerExercise.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/service/JobStorageTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/service/TaskManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/TaskManagerTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/JobStorageTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/service/JobStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Job.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/SortedSetTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/service/TaskManager.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/TaskManagerTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/TaskManagerExercise.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/JobStorage.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Job.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-234" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -303,6 +252,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="Job" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="TaskManagerExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskManagerExercise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,6 +270,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskManagerExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskManagerExercise" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskManagerExercise" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="TaskManagerExercise" type="b2602c69:ProjectViewProjectNode" />
@@ -400,46 +366,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SortedSetTest.check ordering of Job works">
-    <configuration name="JobStorageTest.Check if you can get jobs in the the right priority slot" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;JobStorageTest.Check if you can get jobs in the the right priority slot&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="JobStorageTest.Check if you can get jobs in the the right priority" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;JobStorageTest.Check if you can get jobs in the the right priority&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.TaskManagerExercise">
+    <configuration name="TaskManagerExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaskManagerExercise" />
+      <module name="TaskManagerExercise.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SortedSetTest.check ordering of Job works" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -501,13 +434,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TaskManagerTest.verify timer (internval) is working as expected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TaskManagerTest.verify timer (internval) is working as expected&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskManagerExercise" />
+        <item itemvalue="Gradle.TaskManagerTest.verify timer (internval) is working as expected" />
         <item itemvalue="Gradle.SortedSetTest.check ordering of Job works" />
         <item itemvalue="Gradle.TaskManagerTest.verify that a recurring task can be inserted" />
         <item itemvalue="Gradle.TaskManagerTest.verify that a task can be inserted" />
-        <item itemvalue="Gradle.JobStorageTest.Check if you can get jobs in the the right priority slot" />
-        <item itemvalue="Gradle.JobStorageTest.Check if you can get jobs in the the right priority" />
       </list>
     </recent_temporary>
   </component>
@@ -524,50 +477,50 @@
       <workItem from="1578666751693" duration="620000" />
       <workItem from="1578667484412" duration="10785000" />
       <workItem from="1578702262387" duration="4962000" />
-      <workItem from="1578758878076" duration="4699000" />
+      <workItem from="1578758878076" duration="10669000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortedSetTest_check_ordering_of_Job_works - 2020.01.11 at 10h 15m 20s.xml">
-      <configuration name="SortedSetTest.check ordering of Job works" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 11h 55m 06s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SortedSetTest_check_ordering_of_Job_works - 2020.01.11 at 10h 19m 09s.xml">
-      <configuration name="SortedSetTest.check ordering of Job works" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 11h 56m 00s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SortedSetTest_check_ordering_of_Job_works - 2020.01.11 at 10h 19m 55s.xml">
-      <configuration name="SortedSetTest.check ordering of Job works" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 11h 56m 17s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TaskManagerTest_verify_that_a_task_can_be_inserted - 2020.01.11 at 10h 52m 49s.xml">
-      <configuration name="TaskManagerTest.verify that a task can be inserted" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 11h 56m 58s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TaskManagerTest_verify_that_a_task_can_be_inserted - 2020.01.11 at 10h 53m 59s.xml">
-      <configuration name="TaskManagerTest.verify that a task can be inserted" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 11h 57m 31s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TaskManagerTest_verify_that_a_recurring_task_can_be_inserted - 2020.01.11 at 10h 55m 51s.xml">
-      <configuration name="TaskManagerTest.verify that a recurring task can be inserted" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 11h 58m 49s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SortedSetTest_check_ordering_of_Job_works - 2020.01.11 at 11h 09m 02s.xml">
-      <configuration name="SortedSetTest.check ordering of Job works" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 12h 00m 42s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SortedSetTest_check_ordering_of_Job_works - 2020.01.11 at 11h 09m 06s.xml">
-      <configuration name="SortedSetTest.check ordering of Job works" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 12h 01m 32s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SortedSetTest_check_ordering_of_Job_works - 2020.01.11 at 11h 10m 45s.xml">
-      <configuration name="SortedSetTest.check ordering of Job works" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 12h 01m 33s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SortedSetTest_check_ordering_of_Job_works - 2020.01.11 at 11h 11m 12s.xml">
-      <configuration name="SortedSetTest.check ordering of Job works" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskManagerTest_verify_timer_(internval)_is_working_as_expected - 2020.01.11 at 12h 02m 18s.xml">
+      <configuration name="TaskManagerTest.verify timer (internval) is working as expected" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21066000" />
+    <option name="totallyTimeSpent" value="27036000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-234" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13312034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3111588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -576,13 +529,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26849037" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32624114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32928064" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283767" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32826748" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -602,42 +555,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/JobStorage.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/JobStorage.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/JobStorage.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/JobStorage.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/JobStorage.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/Test.java" />
@@ -655,25 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/RecurringJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/Multi3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -691,10 +593,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/RecurringJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9675">
-          <caret line="703" selection-start-line="703" selection-end-line="703" />
+        <state relative-caret-position="210">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/TaskManagerTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,10 +617,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="703" selection-start-line="703" selection-end-line="703" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/JobStorageTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/SortedSetTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -725,17 +654,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="251" column="12" selection-start-line="251" selection-start-column="12" selection-end-line="251" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TaskManagerExercise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/TaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/JobStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="480">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="31" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -744,43 +690,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Job.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="e#1048#1049#0" expanded="true" />
             <element signature="e#1077#1078#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/SortedSetTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/TaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/TaskManagerTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
