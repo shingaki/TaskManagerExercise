@@ -1,10 +1,18 @@
 package service;
 import model.Job;
+import model.RecurringJob;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
 public class JobStorage {
+
+
+   static final Logger log = LoggerFactory.getLogger(JobStorage.class);
+
    private static int maxStorageSize;
+
    private static SortedSet<Job> storage = Collections.synchronizedSortedSet(new TreeSet());
 
    public JobStorage(int maxStorageSize) {
@@ -24,6 +32,7 @@ public class JobStorage {
          storage.add(job);
          return true;
       } else
+         // returns false - cannot add any more jobs
          return false;
    }
 

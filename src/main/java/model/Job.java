@@ -1,7 +1,13 @@
 package model;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Job implements Comparable {
+
+   static final Logger log = LoggerFactory.getLogger(Job.class);
+
    private int jobNumber;
    private int priority; // lower number means higher priority (1 = High, 2 = Normal, 3 = Low)
    private long addedDate;
@@ -28,11 +34,20 @@ public class Job implements Comparable {
       this.priority = priority;
    }
 
+   public long getAddedDate() {
+      return addedDate;
+   }
+
+   public void setAddedDate(long addedDate) {
+      this.addedDate = addedDate;
+   }
+
    @Override
    public String toString() {
       return "Job{" +
          "jobNumber=" + jobNumber +
          ", priority=" + priority +
+         ", addedDate=" + addedDate +
          '}';
    }
 

@@ -32,7 +32,11 @@ The Task Manager should supply the following capabilities:
 ###My Approach
 
 The following are the major modules for this application:
-1. JobStorage stores the maximum number of jobs allowed. I used the SortedList class because it provided the sort methods I needed for this application. 
+1. JobStorage stores the maximum number of jobs allowed.
+I used the SortedSet interface for sorting the jobs by their priorities. 
+https://www.geeksforgeeks.org/sortedset-java-examples/
+ 
+
 I needed to define the criteria to use while sorting. 
 2. It was important to create a test to ensure the sort was working properly as this is key for the application.
 3. Some jobs provide an interval. I used the interval value to indicate how long to hold the job before inserting the job back into JobStorage. For this I created a timer, once the timer 

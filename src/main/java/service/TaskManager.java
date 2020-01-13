@@ -3,12 +3,17 @@ package service;
 
 import model.Job;
 import model.RecurringJob;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class TaskManager {
-   private int maxNumberOfJobs;
+
+   static final Logger log = LoggerFactory.getLogger(TaskManager.class);
+
+   public int maxNumberOfJobs;
    private JobStorage jobStorage;
 
    public TaskManager(int maxNumberOfJobs) {
@@ -21,23 +26,33 @@ public class TaskManager {
       return jobStorage.addJob(new Job(jobNumber, priority));
    }
 
-   public boolean insertRecurringTask(int jobNumber, int priority, int interval) {
+   public boolean insertRecurringTask(int jobNumber, int priority, long interval) {
       return jobStorage.addJob(new RecurringJob(jobNumber, priority, interval));
    }
 
-   public int getNextJob() {
+   public Job getNextJob() {
       Job job = jobStorage.getNextJob();
       if(job == null)
-         return -1;
+         return null;
       else {
          if (job instanceof RecurringJob) {
             createTimer((RecurringJob) job);
          }
+         return job;
+      }
+   }
 
+   public int getNextJobNumber() {
+      Job job = getNextJob();
+      if(job == null)
+         // no more jobs are in storage
+         return -1;
+      else {
          return job.getJobNumber();
       }
    }
 
+   // create the timer and let it run for the interval time
    public void createTimer(RecurringJob recurringJob) {
       Timer timer = new Timer();
       timer.schedule(new JobTimer(timer, this, recurringJob), recurringJob.getInterval());
@@ -53,15 +68,12 @@ public class TaskManager {
          this.timer = timer;
          this.taskManager = taskManager;
          this.recurringJob = recurringJob;
-
-
       }
 
       public void run() {
-         System.out.format("Timer Task Finished..!%n");
          taskManager.insertRecurringTask(recurringJob.getJobNumber(), recurringJob.getPriority(), recurringJob.getInterval());
          timer.cancel(); // Terminate the timer thread
-
+         log.info("Timer Task Finished..!");
       }
    }
 

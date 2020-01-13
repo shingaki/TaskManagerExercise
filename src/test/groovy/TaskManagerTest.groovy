@@ -30,23 +30,25 @@ class TaskManagerTest extends Specification {
 
         then:
         jobStorage.addJob(new Job(10002, 2))
-        println(jobStorage.getNextJob())    }
+        println(jobStorage.getNextJob())
+    }
 
 
-    def "verify timer (internval) is working as expected"() {
+
+    def "verify timer (interval) is working as expected"() {
         setup:
         long interval = 5000
-        int start = System.currentTimeMillis()
+        long start = System.currentTimeMillis()
         RecurringJob recurringJob = new RecurringJob(10004, 2, interval)
         TaskManager taskManager = new TaskManager(2)
 
         when:
         taskManager.createTimer(recurringJob)
-        int stop = System.currentTimeMillis()
-
+        sleep(6000)
 
         then:
-        interval == stop - start
-
+        Job testJob = taskManager.getNextJob()
+        long stop = (long) testJob.getAddedDate()
+        interval <= stop - start
     }
 }

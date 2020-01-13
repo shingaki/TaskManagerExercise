@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JobStorageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-12T23:05:21" hostname="Tamamis-MacBook-Pro.local" time="0.119">
+  <properties/>
+  <testcase name="Check you cannot add job when a slot is unavailable" classname="JobStorageTest" time="0.119"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

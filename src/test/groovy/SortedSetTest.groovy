@@ -1,5 +1,6 @@
 import model.Job
 import service.JobStorage
+import service.TaskManager
 import spock.lang.Specification
 
 class SortedSetTest extends Specification {
@@ -50,4 +51,45 @@ class SortedSetTest extends Specification {
 
     }
 
-}
+    def "check inserting non-Recurring Jobs and Recurring Jobs correctly"() {
+        setup:
+        JobStorage jobStorage = new JobStorage(4)
+        TaskManager taskManager = new TaskManager(4)
+        taskManager.insertTask(10011, 3) // 3
+        sleep(2000)
+        taskManager.insertTask(10012, 1) // 1
+        sleep(2000)
+        taskManager.insertRecurringTask(10014, 3, 2000) // 4
+        sleep(2000)
+        taskManager.insertRecurringTask(10013, 2, 1000) // 2
+
+
+        println(jobStorage)
+
+        when:
+        int first = taskManager.getNextJobNumber()
+
+        then:
+        first == 10012
+
+        when:
+        int second = taskManager.getNextJobNumber()
+
+        then:
+        second == 10013
+
+        when:
+        int third = taskManager.getNextJobNumber()
+
+        then:
+        third == 10011
+
+        when:
+        int four = taskManager.getNextJobNumber()
+
+        then:
+        four == 10014
+
+    }
+
+    }
