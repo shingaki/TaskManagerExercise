@@ -17,12 +17,15 @@ public class JobStorage {
 
    static final Logger log = LoggerFactory.getLogger(JobStorage.class);
 
-   private static int maxStorageSize;
+   private int maxStorageSize;
 
-   private static SortedSet<Job> storage = Collections.synchronizedSortedSet(new TreeSet());
+   private SortedSet<Job> storage = Collections.synchronizedSortedSet(new TreeSet());
 
-   public JobStorage(int maxStorageSize) {
-      this.maxStorageSize = maxStorageSize;
+   public JobStorage(int initialStorageSize) {
+
+      maxStorageSize = initialStorageSize;
+//      purgeStorage();
+      log.info("Created job storage with max capacity " + maxStorageSize);
    }
 
    /**
@@ -33,10 +36,13 @@ public class JobStorage {
     */
    private boolean canAddJob(Job job) {
       if(storage.size() <= (maxStorageSize - 1) && !storage.contains(job)) {
-            return true;
+         log.info("Job Is Being Added");
+         return true;
       }
       else {
-         return false; }
+         log.warn("Job could not be added");
+         return false;
+      }
    }
 
    /**
@@ -66,9 +72,13 @@ public class JobStorage {
          return null;
    }
 
+//   public void purgeStorage() {
+//      log.info("Clearing the storage");
+//      storage.clear();
+//   }
+
    @Override
    public String toString() {
-
       return "JobStorage{" + storage + "}";
    }
 }

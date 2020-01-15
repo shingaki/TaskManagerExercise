@@ -4,6 +4,20 @@ import spock.lang.Specification
 
 class JobStorageTest extends Specification {
 
+    def "Check that you can't add the same job more than once"() {
+        setup:
+        JobStorage jobStorage = new JobStorage(2)
+        Job job1 = new Job(1, 3)
+        Job job2 = new Job(1, 3)
+        jobStorage.addJob(job1)
+
+        when:
+        boolean canAdd = jobStorage.canAddJob(job2)
+
+        then:
+        canAdd == false
+    }
+
     def "Check if you can add job when a slot is available"() {
         setup:
         JobStorage jobStorage = new JobStorage(2)
@@ -40,9 +54,9 @@ class JobStorageTest extends Specification {
         setup:
         JobStorage jobStorage = new JobStorage(3)
 
-        Job job1 = new Job(10001, 3)
-        Job job2 = new Job(10002, 1)
-        Job job3 = new Job(10003, 2)
+        Job job1 = new Job(100001, 3) // third
+        Job job2 = new Job(100002, 1) // first
+        Job job3 = new Job(100003, 2) // second
 
         jobStorage.addJob(job1)
         jobStorage.addJob(job2)

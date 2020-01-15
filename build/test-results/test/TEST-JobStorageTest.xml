@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JobStorageTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2020-01-15T02:50:22" hostname="Tamamis-MBP.attlocal.net" time="0.329">
+<testsuite name="JobStorageTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-01-15T05:18:13" hostname="Tamamis-MBP.attlocal.net" time="0.252">
   <properties/>
-  <testcase name="Check if you can add job when a slot is available" classname="JobStorageTest" time="0.208"/>
-  <testcase name="Check you cannot add job when a slot is unavailable" classname="JobStorageTest" time="0.002"/>
-  <testcase name="Check if you can get jobs in the the right priority slot" classname="JobStorageTest" time="0.119">
-    <failure message="Condition not satisfied:&#10;&#10;first == job2&#10;|     |  |&#10;|     |  Job{jobNumber=10002, priority=1, addedDate=1579056623106}&#10;|     false&#10;Job{jobNumber=1, priority=3, addedDate=1579056623060}&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
-
-first == job2
-|     |  |
-|     |  Job{jobNumber=10002, priority=1, addedDate=1579056623106}
-|     false
-Job{jobNumber=1, priority=3, addedDate=1579056623060}
-
-	at JobStorageTest.Check if you can get jobs in the the right priority slot(JobStorageTest.groovy:58)
-</failure>
-  </testcase>
-  <system-out><![CDATA[JobStorage{[Job{jobNumber=10001, priority=3, addedDate=1579056623106}, Job{jobNumber=1, priority=3, addedDate=1579056623105}, Job{jobNumber=1, priority=3, addedDate=1579056623060}]}
-JobStorage{[Job{jobNumber=10001, priority=3, addedDate=1579056623106}, Job{jobNumber=1, priority=3, addedDate=1579056623105}]}
+  <testcase name="Check that you can't add the same job more than once" classname="JobStorageTest" time="0.184"/>
+  <testcase name="Check if you can add job when a slot is available" classname="JobStorageTest" time="0.005"/>
+  <testcase name="Check you cannot add job when a slot is unavailable" classname="JobStorageTest" time="0.008"/>
+  <testcase name="Check if you can get jobs in the the right priority slot" classname="JobStorageTest" time="0.039"/>
+  <system-out><![CDATA[23:18:13.805 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+23:18:13.836 [Test worker] INFO  service.JobStorage - Job Is Being Added
+23:18:13.837 [Test worker] WARN  service.JobStorage - Job could not be added
+23:18:13.849 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+23:18:13.850 [Test worker] INFO  service.JobStorage - Job Is Being Added
+23:18:13.851 [Test worker] INFO  service.JobStorage - Job Is Being Added
+23:18:13.859 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+23:18:13.860 [Test worker] INFO  service.JobStorage - Job Is Being Added
+23:18:13.861 [Test worker] INFO  service.JobStorage - Job Is Being Added
+23:18:13.862 [Test worker] WARN  service.JobStorage - Job could not be added
+23:18:13.879 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
+23:18:13.880 [Test worker] INFO  service.JobStorage - Job Is Being Added
+23:18:13.889 [Test worker] INFO  service.JobStorage - Job Is Being Added
+23:18:13.901 [Test worker] INFO  service.JobStorage - Job Is Being Added
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}, Job{jobNumber=100002, priority=1, addedDate=1579065493880}]}
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}]}
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}]}
+JobStorage{[]}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

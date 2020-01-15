@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TaskManagerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-01-15T05:18:13" hostname="Tamamis-MBP.attlocal.net" time="6.109">
+  <properties/>
+  <testcase name="verify that a task can be inserted and retrieved" classname="TaskManagerTest" time="0.011"/>
+  <testcase name="verify that a recurring task can be inserted and retrieved" classname="TaskManagerTest" time="0.033"/>
+  <testcase name="verify timer (interval) is working as expected" classname="TaskManagerTest" time="6.064"/>
+  <system-out><![CDATA[23:18:13.942 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+23:18:13.943 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
+23:18:13.945 [Test worker] INFO  service.JobStorage - Job Is Being Added
+Job{jobNumber=10001, priority=1, addedDate=1579065493945}
+23:18:13.950 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+23:18:13.950 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
+23:18:13.951 [Test worker] INFO  service.JobStorage - Job Is Being Added
+Job{jobNumber=10002, priority=2, addedDate=1579065493951}
+23:18:13.994 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+23:18:13.994 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
+23:18:19.003 [Timer-1] INFO  service.JobStorage - Job Is Being Added
+23:18:19.004 [Timer-1] INFO  service.TaskManager - Timer Task Finished..! Task was added =  true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

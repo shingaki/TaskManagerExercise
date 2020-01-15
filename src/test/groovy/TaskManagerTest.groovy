@@ -1,36 +1,32 @@
 import model.Job
 import model.RecurringJob
-import service.JobStorage
 import service.TaskManager
 import spock.lang.Specification
 
 class TaskManagerTest extends Specification {
+
     def "verify that a task can be inserted and retrieved"() {
         setup:
         int maxNumberOfJobs = 2
         TaskManager taskManager = new TaskManager(maxNumberOfJobs)
-        JobStorage jobStorage = new JobStorage(maxNumberOfJobs)
-
         when:
         taskManager.insertTask(10001, 1)
-
+        Job retrievedJob = taskManager.getNextJob()
         then:
-        jobStorage.addJob(new Job(10001, 1))
-        println(jobStorage.getNextJob())
+        retrievedJob != null
+        println(retrievedJob)
     }
 
     def "verify that a recurring task can be inserted and retrieved"() {
         setup:
         int maxNumberOfJobs = 2
         TaskManager taskManager = new TaskManager(maxNumberOfJobs)
-        JobStorage jobStorage = new JobStorage(maxNumberOfJobs)
-
         when:
         taskManager.insertRecurringTask(10002, 2, 10000)
-
+        Job retrievedJob = taskManager.getNextJob()
         then:
-        jobStorage.addJob(new Job(10002, 2))
-        println(jobStorage.getNextJob())
+        retrievedJob != null
+        println(retrievedJob)
     }
 
     def "verify timer (interval) is working as expected"() {
@@ -39,14 +35,12 @@ class TaskManagerTest extends Specification {
         long start = System.currentTimeMillis()
         RecurringJob recurringJob = new RecurringJob(10004, 2, interval)
         TaskManager taskManager = new TaskManager(2)
-
         when:
         taskManager.createTimer(recurringJob)
-        sleep(6000)
-
+        sleep(interval + 1000) // Wait one more second than interval
         then:
         Job testJob = taskManager.getNextJob()
-        long stop = (long) testJob.getAddedDate()
+        long stop = testJob.getAddedDate()
         interval <= stop - start
     }
 }
