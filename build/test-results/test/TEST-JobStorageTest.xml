@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JobStorageTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-01-15T05:18:13" hostname="Tamamis-MBP.attlocal.net" time="0.252">
+<testsuite name="JobStorageTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-01-15T06:21:12" hostname="Tamamis-MBP.attlocal.net" time="1.955">
   <properties/>
-  <testcase name="Check that you can't add the same job more than once" classname="JobStorageTest" time="0.184"/>
-  <testcase name="Check if you can add job when a slot is available" classname="JobStorageTest" time="0.005"/>
-  <testcase name="Check you cannot add job when a slot is unavailable" classname="JobStorageTest" time="0.008"/>
-  <testcase name="Check if you can get jobs in the the right priority slot" classname="JobStorageTest" time="0.039"/>
-  <system-out><![CDATA[23:18:13.805 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-23:18:13.836 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.837 [Test worker] WARN  service.JobStorage - Job could not be added
-23:18:13.849 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-23:18:13.850 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.851 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.859 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-23:18:13.860 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.861 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.862 [Test worker] WARN  service.JobStorage - Job could not be added
-23:18:13.879 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
-23:18:13.880 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.889 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.901 [Test worker] INFO  service.JobStorage - Job Is Being Added
-JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}, Job{jobNumber=100002, priority=1, addedDate=1579065493880}]}
-JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}]}
-JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}]}
+  <testcase name="Check that you can't add the same job more than once" classname="JobStorageTest" time="1.733"/>
+  <testcase name="Check if you can add job when a slot is available" classname="JobStorageTest" time="0.019"/>
+  <testcase name="Check you cannot add job when a slot is unavailable" classname="JobStorageTest" time="0.1"/>
+  <testcase name="Check if you can get jobs in the the right priority slot" classname="JobStorageTest" time="0.099"/>
+  <system-out><![CDATA[00:21:13.755 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+00:21:14.129 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.129 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.152 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.153 [Test worker] WARN  service.JobStorage - Job could not be added
+00:21:14.215 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+00:21:14.217 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.217 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.226 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.226 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.229 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+00:21:14.295 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.296 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.309 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.325 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.327 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.328 [Test worker] WARN  service.JobStorage - Job could not be added
+00:21:14.329 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
+00:21:14.354 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.354 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.406 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.407 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.412 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.412 [Test worker] INFO  service.JobStorage - Job Is Being Added
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}, Job{jobNumber=100003, priority=2, addedDate=1579069274351}, Job{jobNumber=100002, priority=1, addedDate=1579069274351}]}
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}, Job{jobNumber=100003, priority=2, addedDate=1579069274351}]}
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}]}
 JobStorage{[]}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -12,7 +12,7 @@ class JobStorageTest extends Specification {
         jobStorage.addJob(job1)
 
         when:
-        boolean canAdd = jobStorage.canAddJob(job2)
+        boolean canAdd = jobStorage.addJob(job2)
 
         then:
         canAdd == false

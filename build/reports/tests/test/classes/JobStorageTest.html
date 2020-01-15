@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.236s</div>
+<div class="counter">1.951s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">Check if you can add job when a slot is available</td>
-<td class="success">0.005s</td>
+<td class="success">0.019s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Check if you can get jobs in the the right priority slot</td>
-<td class="success">0.039s</td>
+<td class="success">0.099s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Check that you can't add the same job more than once</td>
-<td class="success">0.184s</td>
+<td class="success">1.733s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Check you cannot add job when a slot is unavailable</td>
-<td class="success">0.008s</td>
+<td class="success">0.100s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -102,23 +102,33 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>23:18:13.805 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-23:18:13.836 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.837 [Test worker] WARN  service.JobStorage - Job could not be added
-23:18:13.849 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-23:18:13.850 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.851 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.859 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-23:18:13.860 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.861 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.862 [Test worker] WARN  service.JobStorage - Job could not be added
-23:18:13.879 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
-23:18:13.880 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.889 [Test worker] INFO  service.JobStorage - Job Is Being Added
-23:18:13.901 [Test worker] INFO  service.JobStorage - Job Is Being Added
-JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}, Job{jobNumber=100002, priority=1, addedDate=1579065493880}]}
-JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}]}
-JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}]}
+<pre>00:21:13.755 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+00:21:14.129 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.129 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.152 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.153 [Test worker] WARN  service.JobStorage - Job could not be added
+00:21:14.215 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+00:21:14.217 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.217 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.226 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.226 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.229 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+00:21:14.295 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.296 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.309 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.325 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.327 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.328 [Test worker] WARN  service.JobStorage - Job could not be added
+00:21:14.329 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
+00:21:14.354 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.354 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.406 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.407 [Test worker] INFO  service.JobStorage - Job Is Being Added
+00:21:14.412 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+00:21:14.412 [Test worker] INFO  service.JobStorage - Job Is Being Added
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}, Job{jobNumber=100003, priority=2, addedDate=1579069274351}, Job{jobNumber=100002, priority=1, addedDate=1579069274351}]}
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}, Job{jobNumber=100003, priority=2, addedDate=1579069274351}]}
+JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}]}
 JobStorage{[]}
 </pre>
 </span>
@@ -131,7 +141,7 @@ JobStorage{[]}
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.3</a> at Jan 14, 2020, 11:18:20 PM</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at Jan 15, 2020, 12:21:21 AM</p>
 </div>
 </div>
 </body>

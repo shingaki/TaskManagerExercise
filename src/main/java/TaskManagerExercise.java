@@ -24,12 +24,29 @@ public class TaskManagerExercise {
 
       // insert a Task into Job Storage
       taskManager.insertTask(111, 2);
-      taskManager.insertRecurringTask(222, 1, 5000);
-      taskManager.insertTask(333, 3);
       taskManager.insertRecurringTask(444, 3, 3000);
+      taskManager.insertTask(333, 3);
+      taskManager.insertRecurringTask(222, 1, 5000);
+      taskManager.insertTask(555, 2);
+
+
+
+
 
       int jobNumber = taskManager.getNextJobNumber();
       log.info("Completed with jobNumber: " + jobNumber);
+
+      sleepNow(10000);
+
+      jobNumber = taskManager.getNextJobNumber();
+      log.info("Completed with jobNumber: " + jobNumber);
+
+      sleepNow(10000);
+
+      jobNumber = taskManager.getNextJobNumber();
+      log.info("Completed with jobNumber: " + jobNumber);
+
+      sleepNow(10000);
 
       jobNumber = taskManager.getNextJobNumber();
       log.info("Completed with jobNumber: " + jobNumber);

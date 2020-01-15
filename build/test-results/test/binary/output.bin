@@ -1,50 +1,84 @@
-^23:18:13.805 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-I23:18:13.836 [Test worker] INFO  service.JobStorage - Job Is Being Added
-M23:18:13.837 [Test worker] WARN  service.JobStorage - Job could not be added
-^23:18:13.849 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-I23:18:13.850 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:13.851 [Test worker] INFO  service.JobStorage - Job Is Being Added
-^23:18:13.859 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-I23:18:13.860 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:13.861 [Test worker] INFO  service.JobStorage - Job Is Being Added
-M23:18:13.862 [Test worker] WARN  service.JobStorage - Job could not be added
-^23:18:13.879 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
-I23:18:13.880 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:13.889 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:13.901 [Test worker] INFO  service.JobStorage - Job Is Being Added
-ÁJobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}, Job{jobNumber=100002, priority=1, addedDate=1579065493880}]}
-…JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}, Job{jobNumber=100003, priority=2, addedDate=1579065493880}]}
-IJobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579065493880}]}
+^00:21:13.755 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+\00:21:14.129 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.129 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:14.152 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+M00:21:14.153 [Test worker] WARN  service.JobStorage - Job could not be added
+^00:21:14.215 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+\00:21:14.217 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.217 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:14.226 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.226 [Test worker] INFO  service.JobStorage - Job Is Being Added
+^00:21:14.229 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+\00:21:14.295 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.296 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:14.309 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.325 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:14.327 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+M00:21:14.328 [Test worker] WARN  service.JobStorage - Job could not be added
+^00:21:14.329 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
+\00:21:14.354 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.354 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:14.406 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.407 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:14.412 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.412 [Test worker] INFO  service.JobStorage - Job Is Being Added
+ÁJobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}, Job{jobNumber=100003, priority=2, addedDate=1579069274351}, Job{jobNumber=100002, priority=1, addedDate=1579069274351}]}
+…JobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}, Job{jobNumber=100003, priority=2, addedDate=1579069274351}]}
+IJobStorage{[Job{jobNumber=100001, priority=3, addedDate=1579069274351}]}
 JobStorage{[]}
-^23:18:13.942 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-d23:18:13.943 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
-I23:18:13.945 [Test worker] INFO  service.JobStorage - Job Is Being Added
-:Job{jobNumber=10001, priority=1, addedDate=1579065493945}
-^23:18:13.950 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-d23:18:13.950 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
-I23:18:13.951 [Test worker] INFO  service.JobStorage - Job Is Being Added
-:Job{jobNumber=10002, priority=2, addedDate=1579065493951}
-	^23:18:13.994 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
-	d23:18:13.994 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
-	E23:18:19.003 [Timer-1] INFO  service.JobStorage - Job Is Being Added
-	a23:18:19.004 [Timer-1] INFO  service.TaskManager - Timer Task Finished..! Task was added =  true
-^23:18:20.055 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
-I23:18:20.056 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:20.057 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:20.058 [Test worker] INFO  service.JobStorage - Job Is Being Added
-²JobStorage{[Job{jobNumber=1, priority=3, addedDate=1579065500056}, Job{jobNumber=3, priority=2, addedDate=1579065500056}, Job{jobNumber=2, priority=1, addedDate=1579065500056}]}
-{JobStorage{[Job{jobNumber=1, priority=3, addedDate=1579065500056}, Job{jobNumber=3, priority=2, addedDate=1579065500056}]}
-6Job{jobNumber=2, priority=1, addedDate=1579065500056}
-DJobStorage{[Job{jobNumber=1, priority=3, addedDate=1579065500056}]}
-6Job{jobNumber=3, priority=2, addedDate=1579065500056}
+^00:21:14.656 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+d00:21:14.656 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
+\00:21:14.677 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.677 [Test worker] INFO  service.JobStorage - Job Is Being Added
+:Job{jobNumber=10001, priority=1, addedDate=1579069274676}
+^00:21:14.711 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+d00:21:14.712 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
+\00:21:14.724 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:14.725 [Test worker] INFO  service.JobStorage - Job Is Being Added
+:Job{jobNumber=10002, priority=2, addedDate=1579069274723}
+	^00:21:14.896 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 2
+	d00:21:14.897 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 2 jobs
+	X00:21:19.914 [Timer-1] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+	E00:21:19.918 [Timer-1] INFO  service.JobStorage - Job Is Being Added
+	a00:21:19.918 [Timer-1] INFO  service.TaskManager - Timer Task Finished..! Task was added =  true
+
+^00:21:20.962 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 3
+
+\00:21:20.964 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+
+I00:21:20.965 [Test worker] INFO  service.JobStorage - Job Is Being Added
+
+\00:21:20.967 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+
+I00:21:20.968 [Test worker] INFO  service.JobStorage - Job Is Being Added
+
+\00:21:20.970 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+
+I00:21:20.970 [Test worker] INFO  service.JobStorage - Job Is Being Added
+
+²JobStorage{[Job{jobNumber=1, priority=3, addedDate=1579069280962}, Job{jobNumber=3, priority=2, addedDate=1579069280962}, Job{jobNumber=2, priority=1, addedDate=1579069280962}]}
+
+{JobStorage{[Job{jobNumber=1, priority=3, addedDate=1579069280962}, Job{jobNumber=3, priority=2, addedDate=1579069280962}]}
+
+6Job{jobNumber=2, priority=1, addedDate=1579069280962}
+
+DJobStorage{[Job{jobNumber=1, priority=3, addedDate=1579069280962}]}
+
+6Job{jobNumber=3, priority=2, addedDate=1579069280962}
+
+JobStorage{[]}
+
+6Job{jobNumber=1, priority=3, addedDate=1579069280962}
+^00:21:20.972 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 4
 JobStorage{[]}
-6Job{jobNumber=1, priority=3, addedDate=1579065500056}
-^23:18:20.059 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 4
-JobStorage{[]}
-^23:18:20.059 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 4
-d23:18:20.059 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 4 jobs
-I23:18:20.059 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:20.059 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:20.060 [Test worker] INFO  service.JobStorage - Job Is Being Added
-I23:18:20.060 [Test worker] INFO  service.JobStorage - Job Is Being Added
-JobStorage{[]}
+^00:21:20.972 [Test worker] INFO  service.JobStorage - Created job storage with max capacity 4
+d00:21:20.972 [Test worker] INFO  service.TaskManager - Created Task Manager with capacity of 4 jobs
+\00:21:20.975 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:20.977 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:20.981 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:20.981 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:20.983 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:20.983 [Test worker] INFO  service.JobStorage - Job Is Being Added
+\00:21:20.985 [Test worker] INFO  service.JobStorage - Completed sleeping for 1 milliseconds
+I00:21:20.985 [Test worker] INFO  service.JobStorage - Job Is Being Added
+JobStorage{[]}

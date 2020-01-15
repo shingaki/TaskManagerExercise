@@ -24,7 +24,6 @@ public class JobStorage {
    public JobStorage(int initialStorageSize) {
 
       maxStorageSize = initialStorageSize;
-//      purgeStorage();
       log.info("Created job storage with max capacity " + maxStorageSize);
    }
 
@@ -35,6 +34,7 @@ public class JobStorage {
     * @return
     */
    private boolean canAddJob(Job job) {
+      sleepNow(1);
       if(storage.size() <= (maxStorageSize - 1) && !storage.contains(job)) {
          log.info("Job Is Being Added");
          return true;
@@ -76,6 +76,14 @@ public class JobStorage {
 //      log.info("Clearing the storage");
 //      storage.clear();
 //   }
+
+   public static void sleepNow(long millis) {
+      try {
+         Thread.sleep(millis);
+      } catch (InterruptedException e) {
+         e.printStackTrace();
+      }
+   }
 
    @Override
    public String toString() {
