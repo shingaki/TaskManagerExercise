@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JobStorageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-12T23:05:21" hostname="Tamamis-MacBook-Pro.local" time="0.119">
+<testsuite name="JobStorageTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2020-01-15T02:50:22" hostname="Tamamis-MBP.attlocal.net" time="0.329">
   <properties/>
-  <testcase name="Check you cannot add job when a slot is unavailable" classname="JobStorageTest" time="0.119"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="Check if you can add job when a slot is available" classname="JobStorageTest" time="0.208"/>
+  <testcase name="Check you cannot add job when a slot is unavailable" classname="JobStorageTest" time="0.002"/>
+  <testcase name="Check if you can get jobs in the the right priority slot" classname="JobStorageTest" time="0.119">
+    <failure message="Condition not satisfied:&#10;&#10;first == job2&#10;|     |  |&#10;|     |  Job{jobNumber=10002, priority=1, addedDate=1579056623106}&#10;|     false&#10;Job{jobNumber=1, priority=3, addedDate=1579056623060}&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+first == job2
+|     |  |
+|     |  Job{jobNumber=10002, priority=1, addedDate=1579056623106}
+|     false
+Job{jobNumber=1, priority=3, addedDate=1579056623060}
+
+	at JobStorageTest.Check if you can get jobs in the the right priority slot(JobStorageTest.groovy:58)
+</failure>
+  </testcase>
+  <system-out><![CDATA[JobStorage{[Job{jobNumber=10001, priority=3, addedDate=1579056623106}, Job{jobNumber=1, priority=3, addedDate=1579056623105}, Job{jobNumber=1, priority=3, addedDate=1579056623060}]}
+JobStorage{[Job{jobNumber=10001, priority=3, addedDate=1579056623106}, Job{jobNumber=1, priority=3, addedDate=1579056623105}]}
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -10,7 +10,6 @@ class SortedSetTest extends Specification {
         true
     }
 
-
     def "check ordering of Job works"() {
         setup:
         JobStorage jobStorage = new JobStorage(3)
@@ -40,7 +39,6 @@ class SortedSetTest extends Specification {
         second == job3
         println(second)
 
-
         when:
         Job third = jobStorage.getNextJob()
         println(jobStorage)
@@ -48,7 +46,6 @@ class SortedSetTest extends Specification {
         then:
         third == job1
         println(third)
-
     }
 
     def "check inserting non-Recurring Jobs and Recurring Jobs correctly"() {
@@ -62,7 +59,6 @@ class SortedSetTest extends Specification {
         taskManager.insertRecurringTask(10014, 3, 2000) // 4
         sleep(2000)
         taskManager.insertRecurringTask(10013, 2, 1000) // 2
-
 
         println(jobStorage)
 
@@ -89,7 +85,5 @@ class SortedSetTest extends Specification {
 
         then:
         four == 10014
-
     }
-
-    }
+}

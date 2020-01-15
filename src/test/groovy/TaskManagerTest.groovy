@@ -33,8 +33,6 @@ class TaskManagerTest extends Specification {
         println(jobStorage.getNextJob())
     }
 
-
-
     def "verify timer (interval) is working as expected"() {
         setup:
         long interval = 5000

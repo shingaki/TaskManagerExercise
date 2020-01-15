@@ -4,6 +4,10 @@ package model;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Job implements because the Job (object) is being sorted based on priority
+ */
+
 public class Job implements Comparable {
 
    static final Logger log = LoggerFactory.getLogger(Job.class);
@@ -66,9 +70,20 @@ public class Job implements Comparable {
       return jobNumber;
    }
 
-   // compares the new job's priority with the priority in the JobStorage
-   // compares if it is less than, or greater than or equal to
-   // if the jobs timestamp are equal then the earliest time stamp will take precedent
+
+   /**
+    * This is needed to be used for the SortedSet
+    * It will compare the new job's priority with the priority of the job in the Job Storage
+    * when the new job's priority is < the existing job - return 1
+    * when the new job's priority is > the existing job - return -1
+    * when the new job's priority is = the existing job - then check the added date
+    * when the new job's added date < the existing job's added date - return 1
+    * when the new job's added date > the existing job's added date - return -1
+    * finally return 0 the dates are equal
+    * @param o
+    * @return
+    */
+
    @Override
    public int compareTo(Object o) {
       Job jobToCompare = (Job)o;

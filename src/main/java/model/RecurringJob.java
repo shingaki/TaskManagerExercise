@@ -3,8 +3,11 @@ package model;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-// recurring job is a sub-class of Job and the only difference is that
-// recurring job includes an interval value
+
+/**
+ * Recurring Job extends Job
+ * It includes the parameger 'interval' while Job does not
+ */
 public class RecurringJob extends Job {
 
    static final Logger log = LoggerFactory.getLogger(RecurringJob.class);
